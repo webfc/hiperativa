@@ -281,13 +281,13 @@ namespace WebFc.Hiperativa.WebApi.Controllers
                 if (iuguCreditCardResponse.HasError)
                     return BadRequest(Utilities.ReturnErro(iuguCreditCardResponse.MessageError));
 
-                //var creditCardId = _creditCardRepository.Create(new CreditCard
-                //{
-                //    ProfileId = userId,
-                //    TokenCard = iuguCreditCardResponse.Id
-                //});
+                    var creditCardId = _creditCardRepository.Create(new Data.Entities.CreditCard
+                    {
+                        ProfileId = userId,
+                        TokenCard = iuguCreditCardResponse.Id
+                    });
 
-             //   entity.CreditCards.Add(creditCardId);
+                    entity.CreditCards.Add(creditCardId);
 
                 await _profileUserBusiness.UpdateAsync(entity);
 
