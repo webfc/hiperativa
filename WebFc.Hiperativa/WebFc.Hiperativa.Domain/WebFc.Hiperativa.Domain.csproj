@@ -1,0 +1,18 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netcoreapp1.1</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="AutoMapper" Version="6.1.1" />
+    <PackageReference Include="UtilityFramework.Application.Core" Version="1.9.8" />
+    <PackageReference Include="UtilityFramework.Services.Core" Version="1.4.1" />
+    <PackageReference Include="UtilityFramework.Services.Iugu.Core" Version="1.6.5" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\WebFc.Hiperativa.Data\WebFc.Hiperativa.Data.csproj" />
+  </ItemGroup>
+
+</Project>

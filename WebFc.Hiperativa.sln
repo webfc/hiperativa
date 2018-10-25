@@ -1,0 +1,53 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.28010.2041
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Core", "Core", "{1314BC7B-73E4-4ED0-B38F-C10F6DDB889C}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WebFc.Hiperativa.Data", "WebFc.Hiperativa\WebFc.Hiperativa.Data\WebFc.Hiperativa.Data.csproj", "{1DE8EA63-C68D-4E39-B864-A048FE57FE43}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WebFc.Hiperativa.Domain", "WebFc.Hiperativa\WebFc.Hiperativa.Domain\WebFc.Hiperativa.Domain.csproj", "{E9C18795-89ED-4371-8CDA-5E8296A633D1}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WebFc.Hiperativa.Repository", "WebFc.Hiperativa\WebFc.Hiperativa.Repository\WebFc.Hiperativa.Repository.csproj", "{D312766F-1BE6-438F-8373-2AFFB9DCB31C}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Services", "Services", "{F37B71AE-0B8A-400F-BBE5-0B539623EF6A}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WebFc.Hiperativa.WebApi", "WebFc.Hiperativa\WebFc.Hiperativa.WebApi\WebFc.Hiperativa.WebApi.csproj", "{30B571CB-0C4D-4189-B62C-E2BB524B9B1E}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{1DE8EA63-C68D-4E39-B864-A048FE57FE43}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1DE8EA63-C68D-4E39-B864-A048FE57FE43}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1DE8EA63-C68D-4E39-B864-A048FE57FE43}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1DE8EA63-C68D-4E39-B864-A048FE57FE43}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E9C18795-89ED-4371-8CDA-5E8296A633D1}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E9C18795-89ED-4371-8CDA-5E8296A633D1}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E9C18795-89ED-4371-8CDA-5E8296A633D1}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E9C18795-89ED-4371-8CDA-5E8296A633D1}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D312766F-1BE6-438F-8373-2AFFB9DCB31C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D312766F-1BE6-438F-8373-2AFFB9DCB31C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D312766F-1BE6-438F-8373-2AFFB9DCB31C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D312766F-1BE6-438F-8373-2AFFB9DCB31C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{30B571CB-0C4D-4189-B62C-E2BB524B9B1E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{30B571CB-0C4D-4189-B62C-E2BB524B9B1E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{30B571CB-0C4D-4189-B62C-E2BB524B9B1E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{30B571CB-0C4D-4189-B62C-E2BB524B9B1E}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{1DE8EA63-C68D-4E39-B864-A048FE57FE43} = {1314BC7B-73E4-4ED0-B38F-C10F6DDB889C}
+		{E9C18795-89ED-4371-8CDA-5E8296A633D1} = {1314BC7B-73E4-4ED0-B38F-C10F6DDB889C}
+		{D312766F-1BE6-438F-8373-2AFFB9DCB31C} = {1314BC7B-73E4-4ED0-B38F-C10F6DDB889C}
+		{30B571CB-0C4D-4189-B62C-E2BB524B9B1E} = {F37B71AE-0B8A-400F-BBE5-0B539623EF6A}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {7E65C201-4250-4761-AA01-7A2408E76CAA}
+	EndGlobalSection
+EndGlobal

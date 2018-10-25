@@ -1,0 +1,45 @@
+﻿{
+  "IUGU": { //Conta de Teste (MEGALEIOS)
+    "SandBox": true,
+    "LiveKey": "a1c1ef56ffb68db3a65f19d3e8cc4bc4",
+    "TestKey": "1aa0c41fe315434698cedbc94b70cc0e",
+    "AccoundId": "97B9BC2219844ED2B03083A7583A16E8"
+  },
+  "infobip": { // CONTA DE TESTE (MEGALEIOS)
+    "username": "megaapi", //login
+    "password": "@Mega2020@" // senha
+  },
+  "iagente": { // CONTA DE TESTE (MEGALEIOS)
+    "username": "", //login
+    "password": "" // senha
+  },
+  "FirebaseSettings": {
+    "urlDataBase": "", // URL DO BANCO DE DADSO
+    "apiKey": "", //CHAVE DA CONTA DO FIREBASE
+    "socialKey": "", //CHAVE DA CONTA DA REDE SOCIAL
+    "email": "", //EMAIL DE ACESSO
+    "password": "", //SENHA DE ACESSO
+    "useAuth": false, //INFORMA SE DESEJA UTILIZAR AUTENTICAÇÃO
+    "typeAuth": 0, //TIPO DE AUTENTICAÇÃO
+    "firebaseAuthType": 0 //TIPO DE AUTENTICAÇÃO SOCIAL DO FIREBASE
+  },
+  "SERVICES": {
+    "ONESIGNAL": [
+      {
+        "KEY": null,
+        "SOUND": "default",
+        "ICON": "default",
+        "APPID": null
+      }
+    ],
+    "SMTP": {
+      "TEMPLATE": "Template",
+      "HOST": "smtp-relay.gmail.com",
+      "PORT": 587,
+      "SSL": false,
+      "EMAIL": "suporte@megaleios.com",
+      "NAME": "Template",
+      "PASSWORD": "Mega20140"
+    }
+  }
+}
